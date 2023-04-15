@@ -15,12 +15,12 @@ li{
 
 .header-menu{
     display: flex;
-    position: fixed;
+    position:fixed;
     width: 100%;
-    height: 40px;
     padding: 8px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 24px;
+    padding-top:24px;
+    height: 16px;
     background-color: #f4b41a;
 }
 
@@ -30,17 +30,19 @@ li{
     width: 100%;
 }
 
+
 .lista-menu {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 50%;
     align-items: center;
     
 }
+
 .lista-menu li>a {
     color: #143d59;
-    font-size: 18px;
-    text-decoration: inherit;
+    font-size: 22px;
+    text-decoration:overline;
 }
 
 .principal{
@@ -50,18 +52,18 @@ li{
 }
 
 .avatar {
-    width: 180px;
     height: 240px;
+    width: 200x;
     border-radius: 25%;
 }
 
 .container {
     margin-right: auto;
     margin-left: auto;
-    margin-top: 75px;
-    max-width: 960px;
-    padding-right: 8px;
-    padding-left: 8px;
+    margin-top: 60px;
+    max-width: 920px;
+    padding-right: 10px;
+    padding-left: 10px;
     width: 100%;
 }
 
@@ -74,7 +76,7 @@ li{
 }
 
 .nome-completo{
-    font-size: 28px;
+    font-size: 36px;
     color: #143d59;
     font-weight: 700;
     height: 45px;
@@ -82,13 +84,15 @@ li{
 
 .profissao{
     color: #134363;
-   height: 50px;
+   height: 60px;
 
 }
 
 .texto-sobre {
     font-size: 20px;
-    line-height: 28px;
+    line-height: 32px;
+    color: #143d59;
+
 }
 
 .article-lista{
@@ -131,23 +135,23 @@ font-weight: 600;
 
 .rodape{
     background-color: #f4b41a;
-    height: 30vh;
+    width: 100%;
+    height: 40vh;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
 .lista-rodape li{
     color: #143d59;
-    font-weight: 700;
-    font-size: 18px;
-    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 15px;
     display: flex;
     align-items: center;
-}
 
 .estilo-icone{
-    font-size: 32px;
+    font-size: 34px;
     margin-right: 8px;
     color: #134363;
-
 }
