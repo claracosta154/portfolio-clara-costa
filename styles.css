@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+li{ 
+    list-style: none;
+}
+
+.header-menu{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    padding: 8px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #f4b41a;
+}
+
+.header-menu nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.lista-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+    
+}
+.lista-menu li>a {
+    color: #143d59;
+    font-size: 18px;
+    text-decoration: inherit;
+}
+
+.principal{
+    height: 110vh;
+    display: flex;
+    background-color: #eaeaea;
+}
+
+.avatar {
+    width: 180px;
+    height: 240px;
+    border-radius: 25%;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 75px;
+    max-width: 960px;
+    padding-right: 8px;
+    padding-left: 8px;
+    width: 100%;
+}
+
+.subcontainer-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.nome-completo{
+    font-size: 28px;
+    color: #143d59;
+    font-weight: 700;
+    height: 45px;
+}
+
+.profissao{
+    color: #134363;
+   height: 50px;
+
+}
+
+.texto-sobre {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.article-lista{
+    display: flex;
+    flex-direction:column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.topico-principal{
+    font-size: 36px;
+    color: #143d59;
+}
+
+.lista-item {
+    padding: 32px;
+
+}
+
+.lista-titulo{
+margin-bottom: 5px;
+font-size: 22px;
+color: #134363;
+font-weight: 600;
+}
+
+.lista-local{
+    font-size:18px;
+    color: #186293;
+}
+
+.lista-descricao{
+    font-size: 18px;
+    margin-top: 5px;
+    line-height: 20px;
+    color: rgb(6, 21, 25);
+    font-weight: 300;
+}
+
+.rodape{
+    background-color: #f4b41a;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+}
+
+.lista-rodape li{
+    color: #143d59;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.estilo-icone{
+    font-size: 32px;
+    margin-right: 8px;
+    color: #134363;
+
+}
